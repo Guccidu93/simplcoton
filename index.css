@@ -8,7 +8,7 @@ h3 {
 	text-align: center;
 }
 
-body, html, .container {
+body, html, #container {
 	height: 100%;
 	margin: 0;
 	padding: 0;
@@ -25,11 +25,11 @@ img {
 	margin: 30px;
 }
 
-footer {
+coucoumanon {
 	text-align: right;
 	position: absolute;
 	width: 100%;
-	background-color: grey;
+	background-color: rgb(104,104,104);
 	height: 123px;
 	bottom: 0;
 }
@@ -38,7 +38,7 @@ h4 {
 	font-size: 20px;
 }
 
-.container {
+#container {
 	position: relative;
 	width: 100%;
 	background-color: #FCFAE1;
@@ -54,4 +54,8 @@ a {
 	position: relative;
 	margin: auto 0;
 	text-align: center;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
 }
